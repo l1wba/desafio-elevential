@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Listagem de Pokémons</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f8f8f8;
+      margin: 0;
+      padding: 20px;
+      text-align: center;
+    }
+
+    h1 {
+      color: #ef5350;
+    }
+
+    .criar-button-container {
+      text-align: center;
+      margin: 30px;
+    }
+
+    .criar-button {
+      padding: 10px 20px;
+      background-color: #66bb6a;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+      transition: background-color 0.3s;
+    }
+
+    .criar-button:hover {
+      background-color: #43a047;
+    }
+
+    table {
+      width: 90%;
+      margin: 0 auto;
+      border-collapse: collapse;
+    }
+
+    th, td {
+      border: 1px solid #ccc;
+      padding: 10px;
+      text-align: center;
+    }
+
+    th {
+      background-color: #ef5350;
+      color: white;
+    }
+
+    tr:nth-child(even) {
+      background-color: #f2f2f2;
+    }
+
+    .edit-button {
+      padding: 6px 12px;
+      background-color: #42a5f5;
+      color: white;
+      border-radius: 4px;
+      text-decoration: none;
+      font-weight: bold;
+      margin-right: 5px;
+    }
+
+    .edit-button:hover {
+      background-color: #1e88e5;
+    }
+
+    .delete-button {
+      padding: 6px 12px;
+      background-color: #e53935;
+      color: white;
+      border-radius: 4px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .delete-button:hover {
+      background-color: #c62828;
+    }
+
+    .button-container {
+      margin-top: 40px;
+      text-align: center;
+    }
+
+    .button-container a {
+      padding: 10px 20px;
+      background-color: #ef5350;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+    }
+
+    .button-container a:hover {
+      background-color: #d32f2f;
+    }
+  </style>
+
+  <script>
+    function confirmarExclusao(nome) {
+      return confirm('Tem certeza que deseja apagar o Pokémon "' + nome + '"? Essa ação não poderá ser desfeita.');
+    }
+  </script>
+</head>
+<body>
+
+  <h1>Lista de Pokémons</h1>
+
+  <div class="criar-button-container">
+    <a href="criar-pokemon/" class="criar-button">Criar Pokemon</a>
+  </div>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Código</th>
+        <th>Nome</th>
+        <th>Tipo Primário</th>
+        <th>Tipo Secundário</th>
+        <th>Ações</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for pokemon in pokemons %}
+        <tr>
+          <td>{{ pokemon.id|stringformat:"03d" }}</td>
+          <td>{{ pokemon.nome }}</td>
+          <td>{{ pokemon.tipo_primario }}</td>
+          <td>{{ pokemon.tipo_secundario|default:"—" }}</td>
+          <td>
+            <a href="editar-pokemon/{{pokemon.id}}" class="edit-button">Editar</a>
+            <a href="apagar-pokemon/{{pokemon.id}}"
+               class="delete-button"
+               onclick="return confirmarExclusao('{{ pokemon.nome }}');">Apagar</a>
+          </td>
+        </tr>
+      {% empty %}
+        <tr>
+          <td colspan="5">Nenhum Pokémon encontrado.</td>
+        </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+
+  <div class="button-container">
+    <a href="/">Voltar para o Menu Principal</a>
+  </div>
+
+</body>
+</html>

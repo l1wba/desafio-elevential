@@ -1,0 +1,85 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pokédex - Página Inicial</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      background-color: #ef5350;
+      color: white;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      text-align: center;
+    }
+
+    img.pokedex-img {
+      width: 500px;
+      height: auto;
+      margin-bottom: 20px;
+    }
+    img.elevential-img {
+        position: absolute;
+        bottom: 10px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 100px;
+        height: auto;
+        }
+
+    h1 {
+      font-size: 3em;
+      margin-bottom: 10px;
+    }
+
+    p {
+      font-size: 1.2em;
+      margin-bottom: 30px;
+    }
+
+    .button-container {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      width: 250px;
+    }
+
+    .button-container a {
+      background-color: white;
+      color: #ef5350;
+      text-decoration: none;
+      padding: 12px;
+      border-radius: 8px;
+      font-weight: bold;
+      transition: background-color 0.3s, color 0.3s;
+    }
+
+    .button-container a:hover {
+      background-color: #ff7961;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+
+  <img src="{% static 'imagens/pokedex.png' %}" alt="Pokedex" class="pokedex-img">
+  <img src="{% static 'imagens/elevential-pokedex.png' %}" alt="logo" class="elevential-img">
+
+  <h1>Bem vindo à Pokédex!</h1>
+  <p>Selecione uma das opções abaixo:</p>
+
+  <div class="button-container">
+    <a href="lista/">Listagem dos Pokémons</a>
+    <a href="lista-tipos/">Criar/Editar Tipos</a>
+  </div>
+
+</body>
+</html>

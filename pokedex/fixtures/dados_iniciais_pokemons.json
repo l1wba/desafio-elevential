@@ -1,0 +1,1202 @@
+[
+  {
+    "model": "pokedex.pokemon",
+    "fields": {
+      "nome": "bulbasaur",
+      "tipo_primario": "grass",
+      "tipo_secundario": "poison"
+    }
+  },
+  {
+    "model": "pokedex.pokemon",
+    "fields": {
+      "nome": "ivysaur",
+      "tipo_primario": "grass",
+      "tipo_secundario": "poison"
+    }
+  },
+  {
+    "model": "pokedex.pokemon",
+    "fields": {
+      "nome": "venusaur",
+      "tipo_primario": "grass",
+      "tipo_secundario": "poison"
+    }
+  },
+  {
+    "model": "pokedex.pokemon",
+    "fields": {
+      "nome": "charmander",
+      "tipo_primario": "fire",
+      "tipo_secundario": null
+    }
+  },
+  {
+    "model": "pokedex.pokemon",
+    "fields": {
+      "nome": "charmeleon",
+      "tipo_primario": "fire",
+      "tipo_secundario": null
+    }
+  },
+  {
+    "model": "pokedex.pokemon",
+    "fields": {
+      "nome": "charizard",
+      "tipo_primario": "fire",
+      "tipo_secundario": "flying"
+    }
+  },
+  {
+    "model": "pokedex.pokemon",
+    "fields": {
+      "nome": "squirtle",
+      "tipo_primario": "water",
+      "tipo_secundario": null
+    }
+  },
+  {
+    "model": "pokedex.pokemon",
+    "fields": {
+      "nome": "wartortle",
+      "tipo_primario": "water",
+      "tipo_secundario": null
+    }
+  },
+  {
+    "model": "pokedex.pokemon",
+    "fields": {
+      "nome": "blastoise",
+      "tipo_primario": "water",
+      "tipo_secundario": null
+    }
+  },
+  {
+    "model": "pokedex.pokemon",
+    "fields": {
+      "nome": "caterpie",
+      "tipo_primario": "bug",
+      "tipo_secundario": null
+    }
+  },
+  {
+    "model": "pokedex.pokemon",
+    "fields": {
+      "nome": "metapod",
+      "tipo_primario": "bug",
+      "tipo_secundario": null
+    }
+  },
+  {
+    "model": "pokedex.pokemon",
+    "fields": {
+      "nome": "butterfree",
+      "tipo_primario": "bug",
+      "tipo_secundario": "flying"
+    }
+  },
+  {
+    "model": "pokedex.pokemon",
+    "fields": {
+      "nome": "weedle",
+      "tipo_primario": "bug",
+      "tipo_secundario": "poison"
+    }
+  },
+  {
+    "model": "pokedex.pokemon",
+    "fields": {
+      "nome": "kakuna",
+      "tipo_primario": "bug",
+      "tipo_secundario": "poison"
+    }
+  },
+  {
+    "model": "pokedex.pokemon",
+    "fields": {
+      "nome": "beedrill",
+      "tipo_primario": "bug",
+      "tipo_secundario": "poison"
+    }
+  },
+  {
+    "model": "pokedex.pokemon",
+    "fields": {
+      "nome": "pidgey",
+      "tipo_primario": "normal",
+      "tipo_secundario": "flying"
+    }
+  },
+  {
+    "model": "pokedex.pokemon",
+    "fields": {
+      "nome": "pidgeotto",
+      "tipo_primario": "normal",
+      "tipo_secundario": "flying"
+    }
+  },
+  {
+    "model": "pokedex.pokemon",
+    "fields": {
+      "nome": "pidgeot",
+      "tipo_primario": "normal",
+      "tipo_secundario": "flying"
+    }
+  },
+  {
+    "model": "pokedex.pokemon",
+    "fields": {
+      "nome": "rattata",
+      "tipo_primario": "normal",
+      "tipo_secundario": null
+    }
+  },
+  {
+    "model": "pokedex.pokemon",
+    "fields": {
+      "nome": "raticate",
+      "tipo_primario": "normal",
+      "tipo_secundario": null
+    }
+  },
+  {
+    "model": "pokedex.pokemon",
+    "fields": {
+      "nome": "spearow",
+      "tipo_primario": "normal",
+      "tipo_secundario": "flying"
+    }
+  },
+  {
+    "model": "pokedex.pokemon",
+    "fields": {
+      "nome": "fearow",
+      "tipo_primario": "normal",
+      "tipo_secundario": "flying"
+    }
+  },
+  {
+    "model": "pokedex.pokemon",
+    "fields": {
+      "nome": "ekans",
+      "tipo_primario": "poison",
+      "tipo_secundario": null
+    }
+  },
+  {
+    "model": "pokedex.pokemon",
+    "fields": {
+      "nome": "arbok",
+      "tipo_primario": "poison",
+      "tipo_secundario": null
+    }
+  },
+  {
+    "model": "pokedex.pokemon",
+    "fields": {
+      "nome": "pikachu",
+      "tipo_primario": "electric",
+      "tipo_secundario": null
+    }
+  },
+  {
+    "model": "pokedex.pokemon",
+    "fields": {
+      "nome": "raichu",
+      "tipo_primario": "electric",
+      "tipo_secundario": null
+    }
+  },
+  {
+    "model": "pokedex.pokemon",
+    "fields": {
+      "nome": "sandshrew",
+      "tipo_primario": "ground",
+      "tipo_secundario": null
+    }
+  },
+  {
+    "model": "pokedex.pokemon",
+    "fields": {
+      "nome": "sandslash",
+      "tipo_primario": "ground",
+      "tipo_secundario": null
+    }
+  },
+  {
+    "model": "pokedex.pokemon",
+    "fields": {
+      "nome": "nidoran-f",
+      "tipo_primario": "poison",
+      "tipo_secundario": null
+    }
+  },
+  {
+    "model": "pokedex.pokemon",
+    "fields": {
+      "nome": "nidorina",
+      "tipo_primario": "poison",
+      "tipo_secundario": null
+    }
+  },
+  {
+    "model": "pokedex.pokemon",
+    "fields": {
+      "nome": "nidoqueen",
+      "tipo_primario": "poison",
+      "tipo_secundario": "ground"
+    }
+  },
+  {
+    "model": "pokedex.pokemon",
+    "fields": {
+      "nome": "nidoran-m",
+      "tipo_primario": "poison",
+      "tipo_secundario": null
+    }
+  },
+  {
+    "model": "pokedex.pokemon",
+    "fields": {
+      "nome": "nidorino",
+      "tipo_primario": "poison",
+      "tipo_secundario": null
+    }
+  },
+  {
+    "model": "pokedex.pokemon",
+    "fields": {
+      "nome": "nidoking",
+      "tipo_primario": "poison",
+      "tipo_secundario": "ground"
+    }
+  },
+  {
+    "model": "pokedex.pokemon",
+    "fields": {
+      "nome": "clefairy",
+      "tipo_primario": "fairy",
+      "tipo_secundario": null
+    }
+  },
+  {
+    "model": "pokedex.pokemon",
+    "fields": {
+      "nome": "clefable",
+      "tipo_primario": "fairy",
+      "tipo_secundario": null
+    }
+  },
+  {
+    "model": "pokedex.pokemon",
+    "fields": {
+      "nome": "vulpix",
+      "tipo_primario": "fire",
+      "tipo_secundario": null
+    }
+  },
+  {
+    "model": "pokedex.pokemon",
+    "fields": {
+      "nome": "ninetales",
+      "tipo_primario": "fire",
+      "tipo_secundario": null
+    }
+  },
+  {
+    "model": "pokedex.pokemon",
+    "fields": {
+      "nome": "jigglypuff",
+      "tipo_primario": "normal",
+      "tipo_secundario": "fairy"
+    }
+  },
+  {
+    "model": "pokedex.pokemon",
+    "fields": {
+      "nome": "wigglytuff",
+      "tipo_primario": "normal",
+      "tipo_secundario": "fairy"
+    }
+  },
+  {
+    "model": "pokedex.pokemon",
+    "fields": {
+      "nome": "zubat",
+      "tipo_primario": "poison",
+      "tipo_secundario": "flying"
+    }
+  },
+  {
+    "model": "pokedex.pokemon",
+    "fields": {
+      "nome": "golbat",
+      "tipo_primario": "poison",
+      "tipo_secundario": "flying"
+    }
+  },
+  {
+    "model": "pokedex.pokemon",
+    "fields": {
+      "nome": "oddish",
+      "tipo_primario": "grass",
+      "tipo_secundario": "poison"
+    }
+  },
+  {
+    "model": "pokedex.pokemon",
+    "fields": {
+      "nome": "gloom",
+      "tipo_primario": "grass",
+      "tipo_secundario": "poison"
+    }
+  },
+  {
+    "model": "pokedex.pokemon",
+    "fields": {
+      "nome": "vileplume",
+      "tipo_primario": "grass",
+      "tipo_secundario": "poison"
+    }
+  },
+  {
+    "model": "pokedex.pokemon",
+    "fields": {
+      "nome": "paras",
+      "tipo_primario": "bug",
+      "tipo_secundario": "grass"
+    }
+  },
+  {
+    "model": "pokedex.pokemon",
+    "fields": {
+      "nome": "parasect",
+      "tipo_primario": "bug",
+      "tipo_secundario": "grass"
+    }
+  },
+  {
+    "model": "pokedex.pokemon",
+    "fields": {
+      "nome": "venonat",
+      "tipo_primario": "bug",
+      "tipo_secundario": "poison"
+    }
+  },
+  {
+    "model": "pokedex.pokemon",
+    "fields": {
+      "nome": "venomoth",
+      "tipo_primario": "bug",
+      "tipo_secundario": "poison"
+    }
+  },
+  {
+    "model": "pokedex.pokemon",
+    "fields": {
+      "nome": "diglett",
+      "tipo_primario": "ground",
+      "tipo_secundario": null
+    }
+  },
+  {
+    "model": "pokedex.pokemon",
+    "fields": {
+      "nome": "dugtrio",
+      "tipo_primario": "ground",
+      "tipo_secundario": null
+    }
+  },
+  {
+    "model": "pokedex.pokemon",
+    "fields": {
+      "nome": "meowth",
+      "tipo_primario": "normal",
+      "tipo_secundario": null
+    }
+  },
+  {
+    "model": "pokedex.pokemon",
+    "fields": {
+      "nome": "persian",
+      "tipo_primario": "normal",
+      "tipo_secundario": null
+    }
+  },
+  {
+    "model": "pokedex.pokemon",
+    "fields": {
+      "nome": "psyduck",
+      "tipo_primario": "water",
+      "tipo_secundario": null
+    }
+  },
+  {
+    "model": "pokedex.pokemon",
+    "fields": {
+      "nome": "golduck",
+      "tipo_primario": "water",
+      "tipo_secundario": null
+    }
+  },
+  {
+    "model": "pokedex.pokemon",
+    "fields": {
+      "nome": "mankey",
+      "tipo_primario": "fighting",
+      "tipo_secundario": null
+    }
+  },
+  {
+    "model": "pokedex.pokemon",
+    "fields": {
+      "nome": "primeape",
+      "tipo_primario": "fighting",
+      "tipo_secundario": null
+    }
+  },
+  {
+    "model": "pokedex.pokemon",
+    "fields": {
+      "nome": "growlithe",
+      "tipo_primario": "fire",
+      "tipo_secundario": null
+    }
+  },
+  {
+    "model": "pokedex.pokemon",
+    "fields": {
+      "nome": "arcanine",
+      "tipo_primario": "fire",
+      "tipo_secundario": null
+    }
+  },
+  {
+    "model": "pokedex.pokemon",
+    "fields": {
+      "nome": "poliwag",
+      "tipo_primario": "water",
+      "tipo_secundario": null
+    }
+  },
+  {
+    "model": "pokedex.pokemon",
+    "fields": {
+      "nome": "poliwhirl",
+      "tipo_primario": "water",
+      "tipo_secundario": null
+    }
+  },
+  {
+    "model": "pokedex.pokemon",
+    "fields": {
+      "nome": "poliwrath",
+      "tipo_primario": "water",
+      "tipo_secundario": "fighting"
+    }
+  },
+  {
+    "model": "pokedex.pokemon",
+    "fields": {
+      "nome": "abra",
+      "tipo_primario": "psychic",
+      "tipo_secundario": null
+    }
+  },
+  {
+    "model": "pokedex.pokemon",
+    "fields": {
+      "nome": "kadabra",
+      "tipo_primario": "psychic",
+      "tipo_secundario": null
+    }
+  },
+  {
+    "model": "pokedex.pokemon",
+    "fields": {
+      "nome": "alakazam",
+      "tipo_primario": "psychic",
+      "tipo_secundario": null
+    }
+  },
+  {
+    "model": "pokedex.pokemon",
+    "fields": {
+      "nome": "machop",
+      "tipo_primario": "fighting",
+      "tipo_secundario": null
+    }
+  },
+  {
+    "model": "pokedex.pokemon",
+    "fields": {
+      "nome": "machoke",
+      "tipo_primario": "fighting",
+      "tipo_secundario": null
+    }
+  },
+  {
+    "model": "pokedex.pokemon",
+    "fields": {
+      "nome": "machamp",
+      "tipo_primario": "fighting",
+      "tipo_secundario": null
+    }
+  },
+  {
+    "model": "pokedex.pokemon",
+    "fields": {
+      "nome": "bellsprout",
+      "tipo_primario": "grass",
+      "tipo_secundario": "poison"
+    }
+  },
+  {
+    "model": "pokedex.pokemon",
+    "fields": {
+      "nome": "weepinbell",
+      "tipo_primario": "grass",
+      "tipo_secundario": "poison"
+    }
+  },
+  {
+    "model": "pokedex.pokemon",
+    "fields": {
+      "nome": "victreebel",
+      "tipo_primario": "grass",
+      "tipo_secundario": "poison"
+    }
+  },
+  {
+    "model": "pokedex.pokemon",
+    "fields": {
+      "nome": "tentacool",
+      "tipo_primario": "water",
+      "tipo_secundario": "poison"
+    }
+  },
+  {
+    "model": "pokedex.pokemon",
+    "fields": {
+      "nome": "tentacruel",
+      "tipo_primario": "water",
+      "tipo_secundario": "poison"
+    }
+  },
+  {
+    "model": "pokedex.pokemon",
+    "fields": {
+      "nome": "geodude",
+      "tipo_primario": "rock",
+      "tipo_secundario": "ground"
+    }
+  },
+  {
+    "model": "pokedex.pokemon",
+    "fields": {
+      "nome": "graveler",
+      "tipo_primario": "rock",
+      "tipo_secundario": "ground"
+    }
+  },
+  {
+    "model": "pokedex.pokemon",
+    "fields": {
+      "nome": "golem",
+      "tipo_primario": "rock",
+      "tipo_secundario": "ground"
+    }
+  },
+  {
+    "model": "pokedex.pokemon",
+    "fields": {
+      "nome": "ponyta",
+      "tipo_primario": "fire",
+      "tipo_secundario": null
+    }
+  },
+  {
+    "model": "pokedex.pokemon",
+    "fields": {
+      "nome": "rapidash",
+      "tipo_primario": "fire",
+      "tipo_secundario": null
+    }
+  },
+  {
+    "model": "pokedex.pokemon",
+    "fields": {
+      "nome": "slowpoke",
+      "tipo_primario": "water",
+      "tipo_secundario": "psychic"
+    }
+  },
+  {
+    "model": "pokedex.pokemon",
+    "fields": {
+      "nome": "slowbro",
+      "tipo_primario": "water",
+      "tipo_secundario": "psychic"
+    }
+  },
+  {
+    "model": "pokedex.pokemon",
+    "fields": {
+      "nome": "magnemite",
+      "tipo_primario": "electric",
+      "tipo_secundario": "steel"
+    }
+  },
+  {
+    "model": "pokedex.pokemon",
+    "fields": {
+      "nome": "magneton",
+      "tipo_primario": "electric",
+      "tipo_secundario": "steel"
+    }
+  },
+  {
+    "model": "pokedex.pokemon",
+    "fields": {
+      "nome": "farfetchd",
+      "tipo_primario": "normal",
+      "tipo_secundario": "flying"
+    }
+  },
+  {
+    "model": "pokedex.pokemon",
+    "fields": {
+      "nome": "doduo",
+      "tipo_primario": "normal",
+      "tipo_secundario": "flying"
+    }
+  },
+  {
+    "model": "pokedex.pokemon",
+    "fields": {
+      "nome": "dodrio",
+      "tipo_primario": "normal",
+      "tipo_secundario": "flying"
+    }
+  },
+  {
+    "model": "pokedex.pokemon",
+    "fields": {
+      "nome": "seel",
+      "tipo_primario": "water",
+      "tipo_secundario": null
+    }
+  },
+  {
+    "model": "pokedex.pokemon",
+    "fields": {
+      "nome": "dewgong",
+      "tipo_primario": "water",
+      "tipo_secundario": "ice"
+    }
+  },
+  {
+    "model": "pokedex.pokemon",
+    "fields": {
+      "nome": "grimer",
+      "tipo_primario": "poison",
+      "tipo_secundario": null
+    }
+  },
+  {
+    "model": "pokedex.pokemon",
+    "fields": {
+      "nome": "muk",
+      "tipo_primario": "poison",
+      "tipo_secundario": null
+    }
+  },
+  {
+    "model": "pokedex.pokemon",
+    "fields": {
+      "nome": "shellder",
+      "tipo_primario": "water",
+      "tipo_secundario": null
+    }
+  },
+  {
+    "model": "pokedex.pokemon",
+    "fields": {
+      "nome": "cloyster",
+      "tipo_primario": "water",
+      "tipo_secundario": "ice"
+    }
+  },
+  {
+    "model": "pokedex.pokemon",
+    "fields": {
+      "nome": "gastly",
+      "tipo_primario": "ghost",
+      "tipo_secundario": "poison"
+    }
+  },
+  {
+    "model": "pokedex.pokemon",
+    "fields": {
+      "nome": "haunter",
+      "tipo_primario": "ghost",
+      "tipo_secundario": "poison"
+    }
+  },
+  {
+    "model": "pokedex.pokemon",
+    "fields": {
+      "nome": "gengar",
+      "tipo_primario": "ghost",
+      "tipo_secundario": "poison"
+    }
+  },
+  {
+    "model": "pokedex.pokemon",
+    "fields": {
+      "nome": "onix",
+      "tipo_primario": "rock",
+      "tipo_secundario": "ground"
+    }
+  },
+  {
+    "model": "pokedex.pokemon",
+    "fields": {
+      "nome": "drowzee",
+      "tipo_primario": "psychic",
+      "tipo_secundario": null
+    }
+  },
+  {
+    "model": "pokedex.pokemon",
+    "fields": {
+      "nome": "hypno",
+      "tipo_primario": "psychic",
+      "tipo_secundario": null
+    }
+  },
+  {
+    "model": "pokedex.pokemon",
+    "fields": {
+      "nome": "krabby",
+      "tipo_primario": "water",
+      "tipo_secundario": null
+    }
+  },
+  {
+    "model": "pokedex.pokemon",
+    "fields": {
+      "nome": "kingler",
+      "tipo_primario": "water",
+      "tipo_secundario": null
+    }
+  },
+  {
+    "model": "pokedex.pokemon",
+    "fields": {
+      "nome": "voltorb",
+      "tipo_primario": "electric",
+      "tipo_secundario": null
+    }
+  },
+  {
+    "model": "pokedex.pokemon",
+    "fields": {
+      "nome": "electrode",
+      "tipo_primario": "electric",
+      "tipo_secundario": null
+    }
+  },
+  {
+    "model": "pokedex.pokemon",
+    "fields": {
+      "nome": "exeggcute",
+      "tipo_primario": "grass",
+      "tipo_secundario": "psychic"
+    }
+  },
+  {
+    "model": "pokedex.pokemon",
+    "fields": {
+      "nome": "exeggutor",
+      "tipo_primario": "grass",
+      "tipo_secundario": "psychic"
+    }
+  },
+  {
+    "model": "pokedex.pokemon",
+    "fields": {
+      "nome": "cubone",
+      "tipo_primario": "ground",
+      "tipo_secundario": null
+    }
+  },
+  {
+    "model": "pokedex.pokemon",
+    "fields": {
+      "nome": "marowak",
+      "tipo_primario": "ground",
+      "tipo_secundario": null
+    }
+  },
+  {
+    "model": "pokedex.pokemon",
+    "fields": {
+      "nome": "hitmonlee",
+      "tipo_primario": "fighting",
+      "tipo_secundario": null
+    }
+  },
+  {
+    "model": "pokedex.pokemon",
+    "fields": {
+      "nome": "hitmonchan",
+      "tipo_primario": "fighting",
+      "tipo_secundario": null
+    }
+  },
+  {
+    "model": "pokedex.pokemon",
+    "fields": {
+      "nome": "lickitung",
+      "tipo_primario": "normal",
+      "tipo_secundario": null
+    }
+  },
+  {
+    "model": "pokedex.pokemon",
+    "fields": {
+      "nome": "koffing",
+      "tipo_primario": "poison",
+      "tipo_secundario": null
+    }
+  },
+  {
+    "model": "pokedex.pokemon",
+    "fields": {
+      "nome": "weezing",
+      "tipo_primario": "poison",
+      "tipo_secundario": null
+    }
+  },
+  {
+    "model": "pokedex.pokemon",
+    "fields": {
+      "nome": "rhyhorn",
+      "tipo_primario": "ground",
+      "tipo_secundario": "rock"
+    }
+  },
+  {
+    "model": "pokedex.pokemon",
+    "fields": {
+      "nome": "rhydon",
+      "tipo_primario": "ground",
+      "tipo_secundario": "rock"
+    }
+  },
+  {
+    "model": "pokedex.pokemon",
+    "fields": {
+      "nome": "chansey",
+      "tipo_primario": "normal",
+      "tipo_secundario": null
+    }
+  },
+  {
+    "model": "pokedex.pokemon",
+    "fields": {
+      "nome": "tangela",
+      "tipo_primario": "grass",
+      "tipo_secundario": null
+    }
+  },
+  {
+    "model": "pokedex.pokemon",
+    "fields": {
+      "nome": "kangaskhan",
+      "tipo_primario": "normal",
+      "tipo_secundario": null
+    }
+  },
+  {
+    "model": "pokedex.pokemon",
+    "fields": {
+      "nome": "horsea",
+      "tipo_primario": "water",
+      "tipo_secundario": null
+    }
+  },
+  {
+    "model": "pokedex.pokemon",
+    "fields": {
+      "nome": "seadra",
+      "tipo_primario": "water",
+      "tipo_secundario": null
+    }
+  },
+  {
+    "model": "pokedex.pokemon",
+    "fields": {
+      "nome": "goldeen",
+      "tipo_primario": "water",
+      "tipo_secundario": null
+    }
+  },
+  {
+    "model": "pokedex.pokemon",
+    "fields": {
+      "nome": "seaking",
+      "tipo_primario": "water",
+      "tipo_secundario": null
+    }
+  },
+  {
+    "model": "pokedex.pokemon",
+    "fields": {
+      "nome": "staryu",
+      "tipo_primario": "water",
+      "tipo_secundario": null
+    }
+  },
+  {
+    "model": "pokedex.pokemon",
+    "fields": {
+      "nome": "starmie",
+      "tipo_primario": "water",
+      "tipo_secundario": "psychic"
+    }
+  },
+  {
+    "model": "pokedex.pokemon",
+    "fields": {
+      "nome": "mr-mime",
+      "tipo_primario": "psychic",
+      "tipo_secundario": "fairy"
+    }
+  },
+  {
+    "model": "pokedex.pokemon",
+    "fields": {
+      "nome": "scyther",
+      "tipo_primario": "bug",
+      "tipo_secundario": "flying"
+    }
+  },
+  {
+    "model": "pokedex.pokemon",
+    "fields": {
+      "nome": "jynx",
+      "tipo_primario": "ice",
+      "tipo_secundario": "psychic"
+    }
+  },
+  {
+    "model": "pokedex.pokemon",
+    "fields": {
+      "nome": "electabuzz",
+      "tipo_primario": "electric",
+      "tipo_secundario": null
+    }
+  },
+  {
+    "model": "pokedex.pokemon",
+    "fields": {
+      "nome": "magmar",
+      "tipo_primario": "fire",
+      "tipo_secundario": null
+    }
+  },
+  {
+    "model": "pokedex.pokemon",
+    "fields": {
+      "nome": "pinsir",
+      "tipo_primario": "bug",
+      "tipo_secundario": null
+    }
+  },
+  {
+    "model": "pokedex.pokemon",
+    "fields": {
+      "nome": "tauros",
+      "tipo_primario": "normal",
+      "tipo_secundario": null
+    }
+  },
+  {
+    "model": "pokedex.pokemon",
+    "fields": {
+      "nome": "magikarp",
+      "tipo_primario": "water",
+      "tipo_secundario": null
+    }
+  },
+  {
+    "model": "pokedex.pokemon",
+    "fields": {
+      "nome": "gyarados",
+      "tipo_primario": "water",
+      "tipo_secundario": "flying"
+    }
+  },
+  {
+    "model": "pokedex.pokemon",
+    "fields": {
+      "nome": "lapras",
+      "tipo_primario": "water",
+      "tipo_secundario": "ice"
+    }
+  },
+  {
+    "model": "pokedex.pokemon",
+    "fields": {
+      "nome": "ditto",
+      "tipo_primario": "normal",
+      "tipo_secundario": null
+    }
+  },
+  {
+    "model": "pokedex.pokemon",
+    "fields": {
+      "nome": "eevee",
+      "tipo_primario": "normal",
+      "tipo_secundario": null
+    }
+  },
+  {
+    "model": "pokedex.pokemon",
+    "fields": {
+      "nome": "vaporeon",
+      "tipo_primario": "water",
+      "tipo_secundario": null
+    }
+  },
+  {
+    "model": "pokedex.pokemon",
+    "fields": {
+      "nome": "jolteon",
+      "tipo_primario": "electric",
+      "tipo_secundario": null
+    }
+  },
+  {
+    "model": "pokedex.pokemon",
+    "fields": {
+      "nome": "flareon",
+      "tipo_primario": "fire",
+      "tipo_secundario": null
+    }
+  },
+  {
+    "model": "pokedex.pokemon",
+    "fields": {
+      "nome": "porygon",
+      "tipo_primario": "normal",
+      "tipo_secundario": null
+    }
+  },
+  {
+    "model": "pokedex.pokemon",
+    "fields": {
+      "nome": "omanyte",
+      "tipo_primario": "rock",
+      "tipo_secundario": "water"
+    }
+  },
+  {
+    "model": "pokedex.pokemon",
+    "fields": {
+      "nome": "omastar",
+      "tipo_primario": "rock",
+      "tipo_secundario": "water"
+    }
+  },
+  {
+    "model": "pokedex.pokemon",
+    "fields": {
+      "nome": "kabuto",
+      "tipo_primario": "rock",
+      "tipo_secundario": "water"
+    }
+  },
+  {
+    "model": "pokedex.pokemon",
+    "fields": {
+      "nome": "kabutops",
+      "tipo_primario": "rock",
+      "tipo_secundario": "water"
+    }
+  },
+  {
+    "model": "pokedex.pokemon",
+    "fields": {
+      "nome": "aerodactyl",
+      "tipo_primario": "rock",
+      "tipo_secundario": "flying"
+    }
+  },
+  {
+    "model": "pokedex.pokemon",
+    "fields": {
+      "nome": "snorlax",
+      "tipo_primario": "normal",
+      "tipo_secundario": null
+    }
+  },
+  {
+    "model": "pokedex.pokemon",
+    "fields": {
+      "nome": "articuno",
+      "tipo_primario": "ice",
+      "tipo_secundario": "flying"
+    }
+  },
+  {
+    "model": "pokedex.pokemon",
+    "fields": {
+      "nome": "zapdos",
+      "tipo_primario": "electric",
+      "tipo_secundario": "flying"
+    }
+  },
+  {
+    "model": "pokedex.pokemon",
+    "fields": {
+      "nome": "moltres",
+      "tipo_primario": "fire",
+      "tipo_secundario": "flying"
+    }
+  },
+  {
+    "model": "pokedex.pokemon",
+    "fields": {
+      "nome": "dratini",
+      "tipo_primario": "dragon",
+      "tipo_secundario": null
+    }
+  },
+  {
+    "model": "pokedex.pokemon",
+    "fields": {
+      "nome": "dragonair",
+      "tipo_primario": "dragon",
+      "tipo_secundario": null
+    }
+  },
+  {
+    "model": "pokedex.pokemon",
+    "fields": {
+      "nome": "dragonite",
+      "tipo_primario": "dragon",
+      "tipo_secundario": "flying"
+    }
+  },
+  {
+    "model": "pokedex.pokemon",
+    "fields": {
+      "nome": "mewtwo",
+      "tipo_primario": "psychic",
+      "tipo_secundario": null
+    }
+  }
+]

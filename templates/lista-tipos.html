@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Tipos</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f7f7f7;
+      padding: 40px;
+    }
+
+    h1 {
+      text-align: center;
+      color: #ef5350;
+      margin-bottom: 10px;
+    }
+
+    .criar-button-container {
+      text-align: center;
+      margin: 30px;
+    }
+
+    .criar-button {
+      padding: 10px 20px;
+      background-color: #66bb6a;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+      transition: background-color 0.3s;
+    }
+
+    .criar-button:hover {
+      background-color: #43a047;
+    }
+
+    table {
+      width: 80%;
+      margin: 0 auto 20px auto;
+      border-collapse: collapse;
+      background-color: #fff;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    th, td {
+      padding: 12px 16px;
+      border: 1px solid #ddd;
+      text-align: center;
+    }
+
+    th {
+      background-color: #ef5350;
+      color: white;
+    }
+
+    tr:nth-child(even) {
+      background-color: #f9f9f9;
+    }
+
+    .edit-button {
+      background-color: #42a5f5;
+      color: white;
+      border: none;
+      padding: 8px 14px;
+      text-decoration: none;
+      border-radius: 4px;
+      font-weight: bold;
+      cursor: pointer;
+      transition: background-color 0.3s;
+      margin-right: 5px;
+    }
+
+    .edit-button:hover {
+      background-color: #1e88e5;
+    }
+
+    .delete-button {
+      background-color: #e53935;
+      color: white;
+      border: none;
+      padding: 8px 14px;
+      text-decoration: none;
+      border-radius: 4px;
+      font-weight: bold;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+
+    .delete-button:hover {
+      background-color: #c62828;
+    }
+
+    .button-container {
+      margin-top: 30px;
+      text-align: center;
+    }
+
+    .button-container a {
+      padding: 10px 20px;
+      background-color: #ef5350;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+      transition: background-color 0.3s;
+    }
+
+    .button-container a:hover {
+      background-color: #d32f2f;
+    }
+  </style>
+
+  <script>
+    function confirmarExclusao(nome) {
+      return confirm('Tem certeza que deseja apagar o tipo "' + nome + '"? Essa ação não poderá ser desfeita.');
+    }
+  </script>
+</head>
+<body>
+
+  <h1>Lista de Tipos</h1>
+
+  <!-- Botão Criar Tipo -->
+  <div class="criar-button-container">
+    <a href="criar-tipo/" class="criar-button">Criar Tipo</a>
+  </div>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Código</th>
+        <th>Nome</th>
+        <th>Ações</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for tipo in tipos %}
+        <tr>
+          <td>{{ tipo.id }}</td>
+          <td>{{ tipo.nome }}</td>
+          <td>
+            <a href="editar-tipo/{{tipo.id}}" class="edit-button">Editar</a>
+            <a href="apagar-tipo/{{tipo.id}}" 
+               class="delete-button"
+               onclick="return confirmarExclusao('{{ tipo.nome }}');">Apagar</a>
+          </td>
+        </tr>
+      {% empty %}
+        <tr>
+          <td colspan="3">Nenhum tipo encontrado.</td>
+        </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+
+  <div class="button-container">
+    <a href="/">Voltar para o Menu Principal</a>
+  </div>
+
+</body>
+</html>

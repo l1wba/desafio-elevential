@@ -1,0 +1,104 @@
+[
+  {
+    "model": "pokedex.tipo",
+    "fields": {
+      "nome": "grass"
+    }
+  },
+  {
+    "model": "pokedex.tipo",
+    "fields": {
+      "nome": "poison"
+    }
+  },
+  {
+    "model": "pokedex.tipo",
+    "fields": {
+      "nome": "fire"
+    }
+  },
+  {
+    "model": "pokedex.tipo",
+    "fields": {
+      "nome": "flying"
+    }
+  },
+  {
+    "model": "pokedex.tipo",
+    "fields": {
+      "nome": "water"
+    }
+  },
+  {
+    "model": "pokedex.tipo",
+    "fields": {
+      "nome": "bug"
+    }
+  },
+  {
+    "model": "pokedex.tipo",
+    "fields": {
+      "nome": "normal"
+    }
+  },
+  {
+    "model": "pokedex.tipo",
+    "fields": {
+      "nome": "electric"
+    }
+  },
+  {
+    "model": "pokedex.tipo",
+    "fields": {
+      "nome": "ground"
+    }
+  },
+  {
+    "model": "pokedex.tipo",
+    "fields": {
+      "nome": "fairy"
+    }
+  },
+  {
+    "model": "pokedex.tipo",
+    "fields": {
+      "nome": "fighting"
+    }
+  },
+  {
+    "model": "pokedex.tipo",
+    "fields": {
+      "nome": "psychic"
+    }
+  },
+  {
+    "model": "pokedex.tipo",
+    "fields": {
+      "nome": "rock"
+    }
+  },
+  {
+    "model": "pokedex.tipo",
+    "fields": {
+      "nome": "steel"
+    }
+  },
+  {
+    "model": "pokedex.tipo",
+    "fields": {
+      "nome": "ice"
+    }
+  },
+  {
+    "model": "pokedex.tipo",
+    "fields": {
+      "nome": "ghost"
+    }
+  },
+  {
+    "model": "pokedex.tipo",
+    "fields": {
+      "nome": "dragon"
+    }
+  }
+]

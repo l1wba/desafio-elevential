@@ -1,0 +1,64 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.p~  
+*.swp
+
+# Virtualenv
+env/
+venv/
+ENV/
+VENV/
+*.env
+*.venv
+
+# Django specific
+*.log
+*.pot
+*.pyc
+db.sqlite3
+db.sqlite3-journal
+media/
+staticfiles/
+
+# Config/Secrets
+*.env
+.env.*
+*.secret
+*.json.local
+settings_local.py
+config/settings_local.py
+
+# Migrations
+**/migrations/
+!**/migrations/__init__.py
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Coverage / Testing
+htmlcov/
+.coverage
+.tox/
+.nox/
+.pytest_cache/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Static collection
+static/
+static_root/
