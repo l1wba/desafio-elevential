@@ -11,7 +11,8 @@ def home(request):
 
 def lista(request):
     pokemons = Pokemon.objects.all().order_by('id')
-    return render(request, "lista.html", {'pokemons': pokemons})
+    tipos = Tipo.objects.all()
+    return render(request, "lista.html", {'pokemons': pokemons, 'tipos': tipos,})
 
 def lista_tipos(request):
     tipos = Tipo.objects.all().order_by('id')
