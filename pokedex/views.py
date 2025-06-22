@@ -1,5 +1,5 @@
 from django.shortcuts import render, redirect, get_object_or_404
-from .models import Pokemon ,Tipo
+from .models import Pokemon, Tipo
 from .forms import TipoForm, PokemonForm
 
 #------------------------------GET HOMEPAGE------------------------------
@@ -49,12 +49,31 @@ def apagar_pokemon(request, pokemon_id):
 def apagar_tipo(request, tipo_id):
     pokemon = get_object_or_404(Tipo, id=tipo_id)
     pokemon.delete()
-    return redirect("lista")
+    return redirect("lista-tipos")
 
 #------------------------------GET EDITAR POKEMON/TIPO------------------------------
 
-def editar_pokemon(request, id):
-    return render(request, "editar-pokemon.html")
+def editar_pokemon(request, pokemon_id):
+    pokemon = get_object_or_404(Pokemon, id=pokemon_id)
 
-def editar_tipo(request, id):
-    return render (request, "editar-tipo.html")
+    if request.method == 'POST':
+        form = PokemonForm(request.POST, instance=pokemon)
+        if form.is_valid():
+            form.save()
+            return redirect('lista')
+    else:
+        form = PokemonForm(instance=pokemon)
+
+    return render(request, "editar-pokemon.html", {"form": form, "pokemon": pokemon})
+
+def editar_tipo(request, tipo_id):
+    tipo = get_object_or_404(Tipo, id=tipo_id)
+
+    if request.method == 'POST':
+        form = TipoForm(request.POST, instance=tipo)
+        if form.is_valid():
+            form.save()
+            return redirect('lista-tipos')
+    else:
+        form = TipoForm(instance=tipo)
+    return render (request, "editar-tipo.html", {"form": form, "tipo": tipo})

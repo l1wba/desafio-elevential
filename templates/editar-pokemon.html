@@ -1,92 +1,88 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Editar Pokémon</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f8f8f8;
-            padding: 20px;
-            text-align: center;
-        }
+  <meta charset="UTF-8">
+  <title>Editar Pokémon</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f7f7f7;
+      padding: 40px;
+    }
 
-        h1 {
-            color: #ef5350;
-        }
+    h1 {
+      text-align: center;
+      color: #ef5350;
+      margin-bottom: 40px;
+    }
 
-        form {
-            background-color: white;
-            padding: 20px;
-            margin: 0 auto;
-            width: 300px;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
-            text-align: left;
-        }
+    form {
+      width: 400px;
+      margin: 0 auto;
+      background-color: #fff;
+      padding: 30px;
+      border-radius: 8px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    }
 
-        label {
-            display: block;
-            margin-top: 10px;
-            font-weight: bold;
-        }
+    label {
+      display: block;
+      margin-bottom: 8px;
+      font-weight: bold;
+      color: #333;
+    }
 
-        input[type="text"] {
-            width: 100%;
-            padding: 8px;
-            margin-top: 5px;
-            border-radius: 4px;
-            border: 1px solid #ccc;
-        }
+    input[type="text"],
+    select {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 20px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
 
-        button {
-            margin-top: 15px;
-            background-color: #ef5350;
-            color: white;
-            padding: 10px 20px;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-            width: 100%;
-        }
+    button {
+      width: 100%;
+      padding: 12px;
+      background-color: #ef5350;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      font-weight: bold;
+      font-size: 16px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
 
-        button:hover {
-            background-color: #d32f2f;
-        }
+    button:hover {
+      background-color: #d32f2f;
+    }
 
-        .back-link {
-            display: inline-block;
-            margin-top: 15px;
-            text-decoration: none;
-            color: #ef5350;
-            font-weight: bold;
-        }
-    </style>
+    .voltar {
+      display: block;
+      text-align: center;
+      margin-top: 20px;
+      color: #ef5350;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .voltar:hover {
+      text-decoration: underline;
+    }
+  </style>
 </head>
 <body>
 
-    <h1>Editar Pokémon: {{ pokemon.nome }}</h1>
+  <h1>Editar Pokémon: {{ pokemon.nome }}</h1>
 
-    <form method="post">
-        {% csrf_token %}
+  <form method="post">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit">Salvar Alterações</button>
+  </form>
 
-        <label>Código:</label>
-        <input type="text" name="codigo" value="{{ pokemon.codigo }}" readonly>
-
-        <label>Nome:</label>
-        <input type="text" name="nome" value="{{ pokemon.nome }}">
-
-        <label>Tipo Primário:</label>
-        <input type="text" name="tipo_primario" value="{{pokemon.tipo_primario}}">
-
-        <label>Tipo Secundário:</label>
-        <input type="text" name="tipo_secundario" value="{{pokemon.tipo_secundario}}">
-
-        <button type="submit">Salvar Alterações</button>
-    </form>
-
-    <a href="/lista/" class="back-link">← Voltar para a Lista</a>
+  <a href="/lista/" class="voltar">Voltar para a Lista de Pokémons</a>
 
 </body>
 </html>
