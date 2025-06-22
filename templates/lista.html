@@ -35,6 +35,14 @@
       background-color: #43a047;
     }
 
+     .filtro-nome {
+      padding: 8px;
+      width: 250px;
+      margin-bottom: 20px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
     table {
       width: 90%;
       margin: 0 auto;
@@ -106,6 +114,32 @@
     function confirmarExclusao(nome) {
       return confirm('Tem certeza que deseja apagar o Pokémon "' + nome + '"? Essa ação não poderá ser desfeita.');
     }
+
+    function filtrarTabela() {
+      const filtroNome = document.getElementById('filtro-nome').value.toLowerCase();
+      const filtroTipo = document.getElementById('filtro-tipo').value.toLowerCase();
+      const linhas = document.querySelectorAll('tbody tr');
+
+      linhas.forEach(function(linha) {
+        const nomePokemon = linha.cells[1]?.textContent.toLowerCase();
+        const tipoPrimario = linha.cells[2]?.textContent.toLowerCase();
+        const tipoSecundario = linha.cells[3]?.textContent.toLowerCase();
+
+        let mostrar = true;
+
+        // Filtro por Nome
+        if (filtroNome && !nomePokemon.includes(filtroNome)) {
+          mostrar = false;
+        }
+
+        // Filtro por Tipo
+        if (filtroTipo && !(tipoPrimario.includes(filtroTipo) || tipoSecundario.includes(filtroTipo))) {
+          mostrar = false;
+        }
+
+        linha.style.display = mostrar ? '' : 'none';
+      });
+    }
   </script>
 </head>
 <body>
@@ -114,6 +148,20 @@
 
   <div class="criar-button-container">
     <a href="criar-pokemon/" class="criar-button">Criar Pokemon</a>
+  </div>
+
+  <!-- Filtros: Nome + Tipo -->
+  <div class="filtros-container">
+    <!-- Campo de filtro por nome -->
+    <input type="text" id="filtro-nome" class="filtro-nome" placeholder="Filtrar por nome..." oninput="filtrarTabela();">
+
+    <!-- Dropdown de filtro por tipo -->
+    <select id="filtro-tipo" class="filtro-tipo" onchange="filtrarTabela();">
+      <option value="">Filtrar por tipo...</option>
+      {% for tipo in tipos %}
+        <option value="{{ tipo.nome }}">{{ tipo.nome }}</option>
+      {% endfor %}
+    </select>
   </div>
 
   <table>
