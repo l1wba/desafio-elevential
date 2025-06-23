@@ -38,13 +38,39 @@ Caso não seja possível finalizar tudo, você pode enviar o que conseguiu final
 
 Utilizei as tecnologias abaixo:
 
-Caso não tenha nenhuma em mente, recomendações possíveis são:
 1. Python -> Django
 2. sqlite
-3.
 
 ## Esboço do Banco de Dados
 ![img](Imagens/escopo_banco.png)
 
-# Exemplo básico funcional
-## [Um exemplo do que é esperado pode ser encontrado aqui](https://desafio-pokedex.elevential.com/)
+## Passo a passo para rodar o projeto
+
+1. Clonar repositório
+```
+git clone https://github.com/l1wba/desafio-elevential.git
+```
+2. Instalar dependências
+```
+pip install -r requirements.txt
+```
+3. Realizar migração do banco
+```
+python manage.py migrate
+```
+4. Povoar table de tipos
+```
+python manage.py loaddata pokedex\fixtures\dados_iniciais_tipos.json
+```
+5. Povoar table de pokemons
+```
+python manage.py loaddata pokedex\fixtures\dados_iniciais_pokemons.json
+```
+6. Iniciar server
+```
+python manage.py runserver
+```
+
+## Link para vídeo do sistema em uso
+
+https://youtu.be/HBSKeRSSGRs
