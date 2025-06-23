@@ -54,7 +54,3 @@ build/
 dist/
 *.egg-info/
 .eggs/
-
-# Static collection
-static/
-static_root/
