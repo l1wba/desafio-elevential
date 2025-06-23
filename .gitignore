@@ -32,10 +32,6 @@ staticfiles/
 settings_local.py
 config/settings_local.py
 
-# Migrations
-**/migrations/
-!**/migrations/__init__.py
-
 # VS Code
 .vscode/
 

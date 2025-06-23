@@ -36,14 +36,12 @@ Caso não seja possível finalizar tudo, você pode enviar o que conseguiu final
 
 ## Tecnologia Utilizada
 
-O desafio pode ser realizado com qualquer tecnologia de preferência do participante.
+Utilizei as tecnologias abaixo:
 
 Caso não tenha nenhuma em mente, recomendações possíveis são:
 1. Python -> Django
-2. Python -> Django + React
-3. Node.js -> Mongo, Express, React("MERN")
-4. C# -> DOTNET + React
-5. Ruby -> Ruby on Rails
+2. sqlite
+3.
 
 ## Esboço do Banco de Dados
 ![img](Imagens/escopo_banco.png)
